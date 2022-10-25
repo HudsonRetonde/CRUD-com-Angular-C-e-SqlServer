@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\hudso\\OneDrive\\Documentos\\Angular Alura\\CRUDAngularDotNEt\\CRUDAPI\\CRUDAPI.csproj": {}
+    "C:\\Users\\hudso\\OneDrive\\Documentos\\Angular Alura\\CRUD-com-Angular-C-e-SqlServer\\CRUDAngularDotNEt\\CRUDAPI\\CRUDAPI.csproj": {}
   },
   "projects": {
-    "C:\\Users\\hudso\\OneDrive\\Documentos\\Angular Alura\\CRUDAngularDotNEt\\CRUDAPI\\CRUDAPI.csproj": {
+    "C:\\Users\\hudso\\OneDrive\\Documentos\\Angular Alura\\CRUD-com-Angular-C-e-SqlServer\\CRUDAngularDotNEt\\CRUDAPI\\CRUDAPI.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\hudso\\OneDrive\\Documentos\\Angular Alura\\CRUDAngularDotNEt\\CRUDAPI\\CRUDAPI.csproj",
+        "projectUniqueName": "C:\\Users\\hudso\\OneDrive\\Documentos\\Angular Alura\\CRUD-com-Angular-C-e-SqlServer\\CRUDAngularDotNEt\\CRUDAPI\\CRUDAPI.csproj",
         "projectName": "CRUDAPI",
-        "projectPath": "C:\\Users\\hudso\\OneDrive\\Documentos\\Angular Alura\\CRUDAngularDotNEt\\CRUDAPI\\CRUDAPI.csproj",
+        "projectPath": "C:\\Users\\hudso\\OneDrive\\Documentos\\Angular Alura\\CRUD-com-Angular-C-e-SqlServer\\CRUDAngularDotNEt\\CRUDAPI\\CRUDAPI.csproj",
         "packagesPath": "C:\\Users\\hudso\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\hudso\\OneDrive\\Documentos\\Angular Alura\\CRUDAngularDotNEt\\CRUDAPI\\obj\\",
+        "outputPath": "C:\\Users\\hudso\\OneDrive\\Documentos\\Angular Alura\\CRUD-com-Angular-C-e-SqlServer\\CRUDAngularDotNEt\\CRUDAPI\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\hudso\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -41,6 +41,16 @@
           "targetAlias": "net6.0",
           "dependencies": {
             "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[6.0.10, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[6.0.10, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
               "target": "Package",
               "version": "[6.0.10, )"
             },
